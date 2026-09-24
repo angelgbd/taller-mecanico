@@ -1,0 +1,22 @@
+{
+  "name": "taller-mecanico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:migrate": "prisma migrate dev",
+    "db:generate": "prisma generate",
+    "db:studio": "prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "prisma": "^7.10.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.10.0"
+  }
+}
